@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <title>JS HW</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <h1>Welcome to my Interactive Photo Gallery!!</h1>
+
+    <!-- Div hiển thị preview -->
+    <div id="image">
+        Di chuột qua một hình ảnh bên dưới để hiển thị ở đây.
+    </div>
+
+    <!-- Bộ ảnh -->
+    <div class="gallery">
+        <img src="https://picsum.photos/id/1015/200/150" alt="Ảnh núi" onmouseover="update(this)" onmouseout="undo()">
+        <img src="https://picsum.photos/id/1025/200/150" alt="Ảnh chó" onmouseover="update(this)" onmouseout="undo()">
+        <img src="https://picsum.photos/id/1035/200/150" alt="Ảnh rừng" onmouseover="update(this)" onmouseout="undo()">
+        <img src="https://picsum.photos/id/1045/200/150" alt="Ảnh biển" onmouseover="update(this)" onmouseout="undo()">
+    </div>
+</body>
+
+</html>
